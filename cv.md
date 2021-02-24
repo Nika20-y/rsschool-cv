@@ -15,8 +15,10 @@ Southern Federal University (SFEDU) | 2019-2021
 
 Experience
 --------------------
-Training project for MetaLamp: https://github.com/Nika20-y/task2/tree/dev
-
+Training project for MetaLamp: https://github.com/Nika20-y/task2/tree/dev <br>
+Courses: <br>
+Web development for beginners: HTML and CSS : https://stepik.org/cert/384420  <br>
+JavaScript for beginners :  https://stepik.org/cert/384420
 
 Skills
 -------
