@@ -1,7 +1,9 @@
 <h1 style="text-align: center">Veronika Yurchak</h1>
+
 Personal data
-----
+-------------------
 **Date of birth:** 20.09.1997 <br>
+**Location:** Rostov-on-Don, Russia <br>
 **Phone:** +7(908)507-29-77 <br>
 **Email:** yurchakveronika1997@gmail.com 
 
