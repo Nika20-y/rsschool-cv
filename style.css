@@ -1,5 +1,57 @@
 body{
     margin: 0;
-    background: linear-gradient(to bottom, #9D7297 10%, #D4B5D0 30%, #F9F1F8 60%) no-repeat ;
-    background-size: 100% 100px;
+    background: linear-gradient(to bottom, #9D7297 30%, #D4B5D0 30%, #D4B5D0 90%, #F9F1F8 90%, #F9F1F8 200%) no-repeat ;
+    background-size: 100% 100%;
+    font-size: 20px;
+}
+.cv__wrapper{
+    margin: 3% 15%;
+}
+
+.cv__avatar{
+    width: 18rem;
+    height: 18rem;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.cv__firstRow{
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+
+}
+.cv__namePerson{
+    margin-top: 1.5rem;
+    font-size: 2.2rem;
+    letter-spacing: .2rem;
+    font-weight: lighter;
+}
+
+.cv__specialty{
+    width: 26rem;
+    background: #F9F1F8;
+    border-radius: .5rem;
+    padding: 1rem 0 1rem 1rem;
+    letter-spacing: .2rem;
+    font-weight: lighter;
+}
+.cv__secondRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Work Sans, sans-serif;
+    letter-spacing: .2rem;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+.cv__firstColumn{
+    width: 50%;
+}
+.cv__secondColumn{
+    line-height: 2.5rem;
+}
+.cv__descriptionInfo{
+    padding-left: 1rem;
+}
+.material-icons{
+    color: #595959;
 }
