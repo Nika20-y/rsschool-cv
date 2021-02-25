@@ -4,6 +4,14 @@ body{
     background-size: 100% 100%;
     font-size: 20px;
 }
+
+@media (max-width:1100px) {
+    body {
+        background: linear-gradient(to bottom, #9D7297 10%, #D4B5D0 10%, #D4B5D0 42%, #F9F1F8 42%, #F9F1F8 100%) no-repeat;
+        font-size: 10px;
+    }
+}
+
 h6{
     width: 70%;
     margin-bottom: 0;
@@ -28,6 +36,17 @@ a{
 .cv__wrapper{
     margin: 3% 15%;
     align-items: center;
+}
+
+@media (max-width:1800px) {
+    .cv__wrapper{
+        margin: 3% 10%;
+    }
+}
+@media (max-width:1600px) {
+    .cv__wrapper{
+        margin: 3% 5%;
+    }
 }
 
 .cv__avatar{
@@ -67,12 +86,21 @@ a{
     line-height: 2rem;
 }
 
+@media (max-width:1100px) {
+    .cv__secondRow,
+    .cv__thirdRow{
+
+    }
+}
+
 .cv__thirdRow{
     padding-top: 4rem;
+
 }
 
 .cv__secondRow{
     margin-bottom: 3rem;
+
 }
 
 .cv__firstColumn{
