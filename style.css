@@ -1,11 +1,23 @@
 body{
     margin: 0;
-    background: linear-gradient(to bottom, #9D7297 30%, #D4B5D0 30%, #D4B5D0 90%, #F9F1F8 90%, #F9F1F8 200%) no-repeat ;
+    background: linear-gradient(to bottom, #9D7297 15%, #D4B5D0 15%, #D4B5D0 48%, #F9F1F8 48%, #F9F1F8 100%) no-repeat ;
     background-size: 100% 100%;
     font-size: 20px;
 }
+h6{
+    width: 70%;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-left: 1rem;
+    background: #D4B5D0;
+}
+
+
 .cv__wrapper{
     margin: 3% 15%;
+    align-items: center;
 }
 
 .cv__avatar{
@@ -17,7 +29,6 @@ body{
 .cv__firstRow{
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-
 }
 .cv__namePerson{
     margin-top: 1.5rem;
@@ -34,7 +45,9 @@ body{
     letter-spacing: .2rem;
     font-weight: lighter;
 }
-.cv__secondRow{
+
+.cv__secondRow,
+.cv__thirdRow{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -43,15 +56,35 @@ body{
     font-weight: lighter;
     line-height: 2rem;
 }
+
+.cv__thirdRow{
+    padding-top: 4rem;
+}
+
+.cv__secondRow{
+    margin-bottom: 3rem;
+}
+
 .cv__firstColumn{
     width: 50%;
 }
+
 .cv__secondColumn{
     line-height: 2.5rem;
+    width: 35%;
 }
+
+
+
 .cv__descriptionInfo{
     padding-left: 1rem;
 }
+
 .material-icons{
+    color: #595959;
+}
+
+hr{
+    margin-top: 0;
     color: #595959;
 }
