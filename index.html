@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Yurchak Veronika</title>
+    <link href="iconfont/material-icons.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cv__wrapper">
+        <div class="cv__firstRow">
+            <img class="cv__avatar" src="avatar.jpg">
+            <h1 class="cv__namePerson">Veronika Yurchak</h1>
+            <h3 class="cv__specialty"> Web-developer</h3>
+        </div>
+        <div class="cv__secondRow">
+            <div class="cv__firstColumn">Hardworking and responsible employee.
+                I am ready to constantly learn new and interesting things.
+                I like to solve complex problems.</div>
+            <div class="cv__secondColumn">
+                <div class="cv__location personData">
+                    <i class='material-icons'>location_on</i>
+                    <span class="cv__descriptionInfo">Rostov-on-Don, Russia</span>
+                </div>
+                <div class="cv__dateOfBirth personData">
+                    <i class='material-icons'>event_available</i>
+                    <span class="cv__descriptionInfo">20.09.1997</span>
+                </div>
+                <div class="cv__phoneNumber personData">
+                    <i class='material-icons'>local_phone</i>
+                    <span class="cv__descriptionInfo">+7(908)507-29-77</span>
+                </div>
+                <div class="cv__email personData">
+                    <i class='material-icons'>email</i>
+                    <span class="cv__descriptionInfo">yurchakveronika1997@gmail.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="cv__thirdRow">
+            <div class="cv__firstColumn">
+                <div class="cv__experience">
+                    <h6>Experience</h6>
+                    <hr>
+                    <h5>Training project</h5>
+                    <a href="https://github.com/Nika20-y/task2/tree/dev">Training project for MetaLamp
+                        </a>
+                    <h5>Courses</h5>
+                    <a href="https://stepik.org/cert/384420">Web development for beginners: HTML and CSS </a> <br>
+                    <a href="https://stepik.org/cert/384420"> JavaScript for beginners </a>
+                </div>
+                <div class="cv__skills">
+                    <h6>Skills</h6>
+                    <hr>
+                    <ul class="cv__skillsList">
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> HTML</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> CSS</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> PUG</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> SCSS</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> Git</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> Webpack</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> BEM</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv__secondColumn">
+                <div class="cv__education">
+                    <h6>Education</h6>
+                    <hr>
+                    <div class="cv__degree">
+                        <i class='material-icons'>bookmark_border</i>
+                        <span>MA DEGREE in business</span>
+                        <div class="cv__university">Southern Federal University (SFEDU)</div>
+                    </div>
+                    <div class="cv__degree">
+                        <i class='material-icons'>bookmark_border</i>
+                        <span>Bachelor DEGREE of Economics</span>
+                        <div class="cv__university">Rostov State University of Economics(RSUE)</div>
+                    </div>
+                </div>
+                <div class="cv__qualities">
+                    <h6>Personal qualities</h6>
+                    <hr>
+                    <ul class="cv__skillsList">
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> Analytical skills</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName">Responsibility</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> Desire to develop</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName">  Communication skills</div>
+                        </li>
+                        <li class="cv__skillItem">
+                            <div class="cv__skillName"> Logical thinking</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    let isMobile = {
+        Android: function() {return navigator.userAgent.match(/Android/i);},
+        BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
+        iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
+        Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
+        Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
+        any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
+    };
+    let body=document.querySelector('body');
+    let html=document.querySelector('html');
+    if(isMobile.any()){
+        body.classList.add('touch');
+        html.style.fontSize = '15px';
+    }
+    else{
+        body.classList.add('mouse');
+    }
+</script>
+</body>
+</html>
