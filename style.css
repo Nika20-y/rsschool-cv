@@ -8,7 +8,12 @@ body{
 @media (max-width:1100px) {
     body {
         background: linear-gradient(to bottom, #9D7297 10%, #D4B5D0 10%, #D4B5D0 42%, #F9F1F8 42%, #F9F1F8 100%) no-repeat;
-        font-size: 10px;
+        font-size: 15px;
+    }
+}
+@media (max-width:768px) {
+    body {
+        background: linear-gradient(to bottom, #9D7297 7%, #D4B5D0 7%, #D4B5D0 35%, #F9F1F8 35%, #F9F1F8 100%) no-repeat;
     }
 }
 
@@ -49,6 +54,12 @@ a{
     }
 }
 
+@media (max-width:768px) {
+    .cv__firstRow{
+        text-align: center;
+    }
+}
+
 .cv__avatar{
     width: 18rem;
     height: 18rem;
@@ -86,10 +97,14 @@ a{
     line-height: 2rem;
 }
 
-@media (max-width:1100px) {
+@media (max-width:768px) {
     .cv__secondRow,
     .cv__thirdRow{
-
+        display: block;
+    }
+    .cv__firstColumn,
+    .cv__secondColumn{
+        width: 95%;
     }
 }
 
@@ -154,4 +169,11 @@ li:before {
 
 .cv__university{
     padding-left: 2rem;
+}
+
+@media (max-width:768px) {
+    .cv__firstColumn,
+    .cv__secondColumn{
+        width: 95%;
+    }
 }
