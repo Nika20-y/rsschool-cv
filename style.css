@@ -144,13 +144,13 @@ ul {
   list-style: none;
 }
 
-.cv__skillItem {
+.cv__skillItem{
   position: relative;
   margin-bottom: 1rem;
   width: 80%;
 }
 
-.cv__skillItem :before {
+.cv__skillItem:before {
   content: "";
   position: absolute;
   top: 0.8rem;
