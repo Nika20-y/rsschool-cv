@@ -41,6 +41,10 @@ a:hover{
   text-decoration: underline;
 }
 
+figure{
+  margin: 0;
+}
+
 .cv__wrapper {
   margin: 3% 15%;
   align-items: center;
